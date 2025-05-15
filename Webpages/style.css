@@ -1,0 +1,146 @@
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+h1{
+  text-decoration: underline;
+}
+/* Style for the navigation bar */
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 6px;
+  }
+  
+  nav a.active {
+    background-color: #266577;
+    color: white;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 600px) {
+    nav a {
+      float: none;
+      display: block;
+      text-align: left;
+      padding: 12px 16px;
+    }
+  
+    nav {
+      border-radius: 0;
+      max-width: 100%;
+    }
+  }
+
+/* Style for the links */
+nav ul li a {
+    display: block; /* Make the link fill the list item */
+    color: rgb(30, 227, 201); /* Text color */
+    text-align: center; /* Center the text */
+    padding: 14px 16px; /* Padding for spacing */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover */
+nav ul li a:hover {
+    background-color: #0b0b0b; /* Darker background on hover */
+}
+
+/* Active link style */
+nav ul li a.active {
+    background-color: #10e010; /* Green background for active link */
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h1{
+      text-align: left;
+      font-size: xxx-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    font-size: xx-large;
+  }
+  
+    .active {
+      background-color: #15e7a1;
+    }
+  /* Responsive adjustments */
+
+    
+    
+    
+    .active {
+      background-color: #111010;
+    }
+  main{
+    background-image: url(Pictures/MotherlandEatery110.jpg);
+  
+}
+
+   
+   h3{
+    font-size: xx-large;
+    text-align: center;
+   }
+   p{
+    font-size: xx-large;
+   }
+   .a-href{
+    color: rgb(15, 191, 240);
+   }
+   /*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+  
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+  
